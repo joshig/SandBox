@@ -32,6 +32,9 @@ namespace JQueryDataTables.Services
         {
             return _companyRepository.DeleteCompanies(id);
         }
+
+	public void FromthePulledCode()
+	{}
     }
 
     public interface ICompanyService
